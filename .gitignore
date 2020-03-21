@@ -4,9 +4,11 @@
 ### Java-Web ###
 ## ignoring target file
 target/
+.vscode/
 
 ### VisualStudioCode ###
 .vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
