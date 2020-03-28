@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,minimum-scale=1, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap" rel="stylesheet">
     <title>AwaxProject</title>
@@ -15,7 +16,7 @@
                 <div class="logoimg"></div>
             </div>
             <img onclick="showmenu()" src="./assets/icones/menu.png" class="nav-botton" alt="">
-            <nav class="menu">
+            <nav class="menu" id="menu">
                 <ul class="list">
                     <li><a href="" class="active at">Home</a></li>
                     <li><a class="at" href="#about">About us</a></li>
@@ -884,7 +885,7 @@
                                 <textarea class="input"  name="message" ></textarea>
                                 <div class="input-name">message</div>
                             </div>
-                            <input onclick="form()" type="submit" value="SEND MESSAGE" class="button b-form">
+                            <input type="submit" value="SEND MESSAGE" class="button b-form">
                         </div>
                     </form>
                 </div>
@@ -916,7 +917,7 @@
         </section>
     </main>
     <footer>
-        <a href="#home"><i class="fas fa-chevron-up corner-button to-the-top"></i></a>
+        <a href="#menu"><i class="fas fa-chevron-up corner-button to-the-top"></i></a>
         <div class="container">
             <div class="section-footer">
                 <div class="footer-part">
